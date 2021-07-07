@@ -1,0 +1,30 @@
+{
+	"name": "ytgql",
+	"version": "0.0.1",
+	"description": "Youtubei GraphQL API",
+	"main": "dist/index.js",
+	"scripts": {
+		"dev": "tsc-watch --noClear --onSuccess \"node ./dist/index.js\"",
+		"test": "jest"
+	},
+	"keywords": [
+		"youtube",
+		"graphql"
+	],
+	"author": "SuspiciousLookingOwl",
+	"license": "MIT",
+	"dependencies": {
+		"apollo-server": "2.25.2",
+		"graphql": "15.5.1",
+		"youtubei": "0.0.1-rc.15"
+	},
+	"devDependencies": {
+		"@types/node": "16.0.0",
+		"@typescript-eslint/eslint-plugin": "4.28.2",
+		"@typescript-eslint/parser": "4.28.2",
+		"eslint": "7.30.0",
+		"prettier": "2.3.2",
+		"tsc-watch": "4.4.0",
+		"typescript": "4.3.5"
+	}
+}
